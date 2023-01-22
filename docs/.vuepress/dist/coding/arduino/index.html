@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Documentazione | Ciao!</title><meta name="description" content="Qui trovi i miei appunti di informatica">
+    <link rel="modulepreload" href="/assets/app.30ed76b5.js"><link rel="modulepreload" href="/assets/index.html.f3e02152.js"><link rel="modulepreload" href="/assets/index.html.5110c835.js"><link rel="prefetch" href="/assets/index.html.4c4b2803.js"><link rel="prefetch" href="/assets/01.html.1477e184.js"><link rel="prefetch" href="/assets/02.html.c0ac8c24.js"><link rel="prefetch" href="/assets/03.html.d8489a27.js"><link rel="prefetch" href="/assets/04.html.671a4c65.js"><link rel="prefetch" href="/assets/05.html.41a6fc5d.js"><link rel="prefetch" href="/assets/06.html.9988fcbe.js"><link rel="prefetch" href="/assets/07.html.5cd2224a.js"><link rel="prefetch" href="/assets/08.html.d91b0611.js"><link rel="prefetch" href="/assets/index.html.05ecea17.js"><link rel="prefetch" href="/assets/index.html.b4de5604.js"><link rel="prefetch" href="/assets/index.html.2817189e.js"><link rel="prefetch" href="/assets/index.html.2a1d8675.js"><link rel="prefetch" href="/assets/01.html.a8d58b85.js"><link rel="prefetch" href="/assets/index.html.91e4e7aa.js"><link rel="prefetch" href="/assets/index.html.2b95e079.js"><link rel="prefetch" href="/assets/index.html.8e249741.js"><link rel="prefetch" href="/assets/index.html.3cb61f32.js"><link rel="prefetch" href="/assets/index.html.713f2c2b.js"><link rel="prefetch" href="/assets/index.html.352609ca.js"><link rel="prefetch" href="/assets/404.html.7d858b3d.js"><link rel="prefetch" href="/assets/index.html.bb2b86cd.js"><link rel="prefetch" href="/assets/01.html.0609ae03.js"><link rel="prefetch" href="/assets/02.html.0e7e37e1.js"><link rel="prefetch" href="/assets/03.html.5309f185.js"><link rel="prefetch" href="/assets/04.html.ba69b0a8.js"><link rel="prefetch" href="/assets/05.html.101f3680.js"><link rel="prefetch" href="/assets/06.html.c4a477bb.js"><link rel="prefetch" href="/assets/07.html.995a88da.js"><link rel="prefetch" href="/assets/08.html.a8f9b47c.js"><link rel="prefetch" href="/assets/index.html.e95ffb10.js"><link rel="prefetch" href="/assets/index.html.b61c3faa.js"><link rel="prefetch" href="/assets/index.html.0a6e8d4e.js"><link rel="prefetch" href="/assets/index.html.a0f08f98.js"><link rel="prefetch" href="/assets/01.html.97db51fa.js"><link rel="prefetch" href="/assets/index.html.c6e24a62.js"><link rel="prefetch" href="/assets/index.html.d962b4c2.js"><link rel="prefetch" href="/assets/index.html.b17c4459.js"><link rel="prefetch" href="/assets/index.html.8e2fc672.js"><link rel="prefetch" href="/assets/index.html.e8e70be1.js"><link rel="prefetch" href="/assets/index.html.2b155f1e.js"><link rel="prefetch" href="/assets/404.html.134a0596.js"><link rel="prefetch" href="/assets/404.71872b13.js"><link rel="prefetch" href="/assets/Layout.1b8a159f.js">
+    <link rel="stylesheet" href="/assets/style.3b74389a.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><img class="logo" src="/images/hero.png" alt="Ciao!"><span class="site-name can-hide">Ciao!</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="Coding"><span class="title">Coding</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="Coding"><span class="title">Coding</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/coding/arduino/README.md" class="" aria-label="Arduino"><!--[--><!--]--> Arduino <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/cpp/README.md" class="" aria-label="C++"><!--[--><!--]--> C++ <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/rust/README.md" class="" aria-label="Rust"><!--[--><!--]--> Rust <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/regex/README.md" class="" aria-label="RegEx"><!--[--><!--]--> RegEx <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/nodejs/README.md" class="" aria-label="Node.js"><!--[--><!--]--> Node.js <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/typescript/README.md" class="" aria-label="Typescript"><!--[--><!--]--> Typescript <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/raspberry-pi-pico/README.md" class="" aria-label="Raspberry pi pico"><!--[--><!--]--> Raspberry pi pico <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/python/README.md" class="" aria-label="Python"><!--[--><!--]--> Python <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/git/README.md" class="" aria-label="Git"><!--[--><!--]--> Git <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><a class="external-link" href="https://github.com/sdiricco/simone-di-ricco" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><form class="search-box" role="search"><input type="search" autocomplete="off" spellcheck="false" value><!----></form></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="Coding"><span class="title">Coding</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="Coding"><span class="title">Coding</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/coding/arduino/README.md" class="" aria-label="Arduino"><!--[--><!--]--> Arduino <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/cpp/README.md" class="" aria-label="C++"><!--[--><!--]--> C++ <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/rust/README.md" class="" aria-label="Rust"><!--[--><!--]--> Rust <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/regex/README.md" class="" aria-label="RegEx"><!--[--><!--]--> RegEx <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/nodejs/README.md" class="" aria-label="Node.js"><!--[--><!--]--> Node.js <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/typescript/README.md" class="" aria-label="Typescript"><!--[--><!--]--> Typescript <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/raspberry-pi-pico/README.md" class="" aria-label="Raspberry pi pico"><!--[--><!--]--> Raspberry pi pico <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/python/README.md" class="" aria-label="Python"><!--[--><!--]--> Python <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/coding/git/README.md" class="" aria-label="Git"><!--[--><!--]--> Git <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><a class="external-link" href="https://github.com/sdiricco/simone-di-ricco" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading collapsible">Arduino <span class="right arrow"></span></p><ul style="display:none;" class="sidebar-item-children"><!--[--><li><a href="/coding/arduino/01.html" class="sidebar-item" aria-label="Arduino"><!--[--><!--]--> Arduino <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/02.html" class="sidebar-item" aria-label="Come alimentare Arduino"><!--[--><!--]--> Come alimentare Arduino <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/03.html" class="sidebar-item" aria-label="Pin I/O"><!--[--><!--]--> Pin I/O <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/04.html" class="sidebar-item" aria-label="Sketch"><!--[--><!--]--> Sketch <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/05.html" class="sidebar-item" aria-label="Primo sketch"><!--[--><!--]--> Primo sketch <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/06.html" class="sidebar-item" aria-label="PWM"><!--[--><!--]--> PWM <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/07.html" class="sidebar-item" aria-label="Fade"><!--[--><!--]--> Fade <!--[--><!--]--></a><!----></li><li><a href="/coding/arduino/08.html" class="sidebar-item" aria-label="Approfondimento Fade"><!--[--><!--]--> Approfondimento Fade <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><p tabindex="0" class="sidebar-item sidebar-heading active collapsible">Reference <span class="down arrow"></span></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/coding/arduino/" class="router-link-active router-link-exact-active router-link-active sidebar-item active" aria-label="Documentazione"><!--[--><!--]--> Documentazione <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/coding/arduino/#binary-clock" class="router-link-active router-link-exact-active sidebar-item" aria-label="Binary Clock"><!--[--><!--]--> Binary Clock <!--[--><!--]--></a><ul style="display:none;" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/coding/arduino/#collegamenti-hardware" class="router-link-active router-link-exact-active sidebar-item" aria-label="Collegamenti Hardware"><!--[--><!--]--> Collegamenti Hardware <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/coding/arduino/#il-codice" class="router-link-active router-link-exact-active sidebar-item" aria-label="Il codice"><!--[--><!--]--> Il codice <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><a aria-current="page" href="/coding/arduino/#rtc-e-display-7-segmenti" class="router-link-active router-link-exact-active sidebar-item" aria-label="RTC e display 7 segmenti"><!--[--><!--]--> RTC e display 7 segmenti <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/coding/arduino/#eeprom" class="router-link-active router-link-exact-active sidebar-item" aria-label="EEPROM"><!--[--><!--]--> EEPROM <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/coding/arduino/#sleep-mode" class="router-link-active router-link-exact-active sidebar-item" aria-label="SLEEP MODE"><!--[--><!--]--> SLEEP MODE <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/coding/arduino/#contatto-magnetico" class="router-link-active router-link-exact-active sidebar-item" aria-label="Contatto magnetico"><!--[--><!--]--> Contatto magnetico <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/coding/arduino/#rtc-e-display-i2c" class="router-link-active router-link-exact-active sidebar-item" aria-label="RTC e Display I2C"><!--[--><!--]--> RTC e Display I2C <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/coding/arduino/#wifi" class="router-link-active router-link-exact-active sidebar-item" aria-label="wifi"><!--[--><!--]--> wifi <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="documentazione" tabindex="-1"><a class="header-anchor" href="#documentazione" aria-hidden="true">#</a> Documentazione</h1><p>Arduino utilizza il linguaggio <code>C++</code> ma esporta una serie di funzioni molto semplici per il controllo dell&#39;Hardware. <a href="https://www.arduino.cc/reference/it/" target="_blank" rel="noopener noreferrer">Qui<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> puoi trovare la documentazione ufficiale del linguaggio di Arduino.</p><p><img src="/assets/arduino-language.d4eeed50.png" alt=""></p><p>Qua sotto riporto comunque qualche costrutto fondamentale del linguaggio <code>C++</code> e qualche funzione esportata da Arduino.</p><p><strong>Le variabili</strong></p><table><thead><tr><th>Tipo di Dato</th><th>Dimensione</th><th>Descrizione</th></tr></thead><tbody><tr><td>char</td><td>1 Byte</td><td>Contenitore per caratteri e valori alfanumerici (e.g., ‘a’, ‘b’, ‘1’, etc)</td></tr><tr><td>bool</td><td>1 Byte</td><td>Contenitore per valori booleani (e.g., true, false)</td></tr><tr><td>int</td><td>2 Byte</td><td>Contenitore per numeri interi nel range numerico, da -32768 a 32767.</td></tr><tr><td>unsigned int</td><td>2 Byte</td><td>Contenitore per numeri interi senza segno nel range numerico, da 0 a 65535.</td></tr><tr><td>long</td><td>4 Byte</td><td>Contenitore per numeri interi nel range numerico, da -2147483648 a 2147483647</td></tr><tr><td>unsigned long</td><td>4 Byte</td><td>Contenitore per numeri interi nel range numerico, da 0 to 4,294,967,295 (2^32 – 1)</td></tr><tr><td>float</td><td>4 Byte</td><td>Contenitore per numeri interi nel range numerico, da 0 to 4,294,967,295 (2^32 – 1)</td></tr><tr><td>double</td><td>4 Byte</td><td>Contenitore per numeri interi nel range numerico, da 0 to 4,294,967,295 (2^32 – 1)</td></tr><tr><td>String</td><td>-</td><td>Contenitore per testo (e.g., “Resistenza”)</td></tr></tbody></table><h2 id="binary-clock" tabindex="-1"><a class="header-anchor" href="#binary-clock" aria-hidden="true">#</a> Binary Clock</h2><p>Per questo orologio binario ho utilizzato la libreria <a href="https://github.com/Electro707/Simple-LED-Matrix-Library" target="_blank" rel="noopener noreferrer">simple_matrix<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> per la gestione della matrice di LED e la libreria <a href="https://github.com/adafruit/RTClib" target="_blank" rel="noopener noreferrer">RTClib<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> per la gestione del tempo.</p><p>Ho modificato la libreria <a href="https://github.com/Electro707/Simple-LED-Matrix-Library" target="_blank" rel="noopener noreferrer">simple_matrix<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> creando una nuova versione, <a href="https://github.com/CodeCoagious19/arduino-libraries/tree/master/MatrixLEDLib_v2" target="_blank" rel="noopener noreferrer">simple_matrix_v2<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> che in più contiene i metodi:</p><ul><li><code>writeSquare(order, x, y, value)</code></li><li><code>writePixel(x, y, value)</code></li></ul><h3 id="collegamenti-hardware" tabindex="-1"><a class="header-anchor" href="#collegamenti-hardware" aria-hidden="true">#</a> Collegamenti Hardware</h3><table><thead><tr><th>LED Matrix Pins</th><th>Arduino Pins</th></tr></thead><tbody><tr><td>VCC</td><td>VCC</td></tr><tr><td>GND</td><td>GND</td></tr><tr><td>DIN</td><td>D11</td></tr><tr><td>CLK</td><td>D13</td></tr><tr><td>CS</td><td>D4</td></tr></tbody></table><table><thead><tr><th>RTC</th><th>Arduino Pins</th></tr></thead><tbody><tr><td>VCC</td><td>VCC (+5V)</td></tr><tr><td>GND</td><td>GND</td></tr><tr><td>SDA</td><td>A4 (SDA)</td></tr><tr><td>SCL</td><td>A5 (SCL)</td></tr></tbody></table><p><img src="/assets/binaryClock.21b78a05.png" alt="binaryClock"></p><h3 id="il-codice" tabindex="-1"><a class="header-anchor" href="#il-codice" aria-hidden="true">#</a> Il codice</h3><p>L&#39;orologio binario consiste nel codificare ore, minuti e secondi con la relativa sequenza binaria.</p><p>Ho deciso di codificare ogni cifra in una sequenza binaria rappresentando quindi separatamente decine e unità per ore, minuti e secondi.</p><p>Ad esempio:</p><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>12
+
+//decine //unità
+0001     0010
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Inoltre la rappresentazione del tempo all&#39;interno della matrice di LED va dall&#39;alto verso il basso a partire dalle ore.</p><p>In conclusione, per rappresentare la seguente ora: <code>21:34:46</code> vedrai:</p><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>21:34:46
+
+//d  //u
+0010 0001
+0011 0100
+0100 0110
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Ecco quindi il codice completo..</p><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>#include &quot;simple_matrix_v2.h&quot;  //Import the library
+#include &quot;RTClib.h&quot;
+
+#define NUMBER_OF_DISPLAYS 2 //Sets the number of display (4 for this example)
+
+/*
+Initialize the library. The 4 means that the CS pin is connected to pin D4.
+You can change this to whatever you want, just make sure to connect the CS
+pin to the pin number.
+
+The disp means that any future function calls to the library uses &quot;disp&quot; as the
+library&#39;s object name. For example, the library has a function called
+&quot;setIntensity&quot;, you need to write &quot;disp.setIntensity&quot; to call that function.
+
+If you notice that the display is upside-down per display, change
+simpleMatrix disp(4, false, NUMBER_OF_DISPLAYS); to simpleMatrix disp(4, true, NUMBER_OF_DISPLAYS);
+*/
+
+/*
+WARNING!!
+There are several problems with the coding of (x, y) coordinates. I advise you to change the library for the LED matrix and switch to MD_MAX72XX which is much more complete and configurable.
+*/
+simpleMatrix disp(4, true, NUMBER_OF_DISPLAYS);
+RTC_DS1307 rtc;
+
+#define ORDER 2
+#define START_X 0
+#define START_Y 8
+
+#define ADJUST_HOUR true
+
+int seconds = 0;
+int minutes = 0;
+int hours = 0;
+
+void seconds_unit(int i){
+  //If you don&#39;t understand, see WARNINGS
+  int x = 0;
+  int y = 0;
+  int value = 0;
+  for (int bitNumber = 0; bitNumber &lt; 4; bitNumber++){
+    x = START_Y - 1*ORDER;
+    y = START_X + bitNumber*ORDER;
+    value = (i&gt;&gt;bitNumber)&amp;1;
+    disp.writeSquare(ORDER, x, y, value);
+  }
+}
+
+void seconds_dozens(int i){
+  //If you don&#39;t understand, see WARNINGS
+  int x = 0;
+  int y = 0;
+  int value = 0;
+  for (int bitNumber = 0; bitNumber &lt; 4; bitNumber++){
+    x = START_Y - 1*ORDER;
+    y = START_X + 8 + bitNumber*ORDER;
+    value = (i&gt;&gt;bitNumber)&amp;1;
+    disp.writeSquare(ORDER, x, y, value);
+  }
+}
+
+void minutes_unit(int i){
+  //If you don&#39;t understand, see WARNINGS
+  int x = 0;
+  int y = 0;
+  int value = 0;
+  for (int bitNumber = 0; bitNumber &lt; 4; bitNumber++){
+    x = START_Y - 2*ORDER -1;
+    y = START_X + bitNumber*ORDER;
+    value = (i&gt;&gt;bitNumber)&amp;1;
+    disp.writeSquare(ORDER, x, y, value);
+  }
+}
+void minutes_dozens(int i){
+  //If you don&#39;t understand, see WARNINGS
+  int x = 0;
+  int y = 0;
+  int value = 0;
+  for (int bitNumber = 0; bitNumber &lt; 4; bitNumber++){
+    x = START_Y - 2*ORDER -1;
+    y = START_X + 8 + bitNumber*ORDER;
+    value = (i&gt;&gt;bitNumber)&amp;1;
+    disp.writeSquare(ORDER, x, y, value);
+  }
+}  
+
+void hours_unit(int i){
+  //If you don&#39;t understand, see WARNINGS
+  int x = 0;
+  int y = 0;
+  int value = 0;
+  for (int bitNumber = 0; bitNumber &lt; 4; bitNumber++){
+    x = START_Y - 3*ORDER -2;
+    y = START_X + bitNumber*ORDER;
+    value = (i&gt;&gt;bitNumber)&amp;1;
+    disp.writeSquare(ORDER, x, y, value);
+  }
+}
+
+void hours_dozens(int i){
+  //If you don&#39;t understand, see WARNINGS
+  int x = 0;
+  int y = 0;
+  int value = 0;
+  for (int bitNumber = 0; bitNumber &lt; 4; bitNumber++){
+    x = START_Y - 3*ORDER -2;
+    y = START_X + 8 + bitNumber*ORDER;
+    value = (i&gt;&gt;bitNumber)&amp;1;
+    disp.writeSquare(ORDER, x, y, value);
+  }
+}
+
+
+//This code will run only once when the Arduino is turned on.
+void setup(){
+  rtc.begin();
+  //Starts the library
+  disp.begin();
+  //Set the LED&#39;s intensity. This value can be anywhere between 0 and 15.
+  disp.setIntensity(0x01);
+
+  if(ADJUST_HOUR){
+     rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+   }
+}
+
+//After void setup(), this code will run and loop forever.
+void loop(){
+
+    DateTime adesso = rtc.now();
+
+    seconds = adesso.second();
+    minutes = adesso.minute();
+    hours = adesso.hour();
+
+    seconds_unit(seconds%10);
+    seconds_dozens(seconds/10);
+
+    minutes_unit(minutes%10);
+    minutes_dozens(minutes/10);
+
+    hours_unit(hours%10);
+    hours_dozens(hours/10);
+
+    delay(1000);
+
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="rtc-e-display-7-segmenti" tabindex="-1"><a class="header-anchor" href="#rtc-e-display-7-segmenti" aria-hidden="true">#</a> RTC e display 7 segmenti</h2><table><thead><tr><th>7 SEG Pins</th><th>Arduino Pins</th></tr></thead><tbody><tr><td>VCC</td><td>VCC</td></tr><tr><td>GND</td><td>GND</td></tr><tr><td>DIN</td><td>D11</td></tr><tr><td>CLK</td><td>D13</td></tr><tr><td>CS</td><td>D10</td></tr></tbody></table><p><a href="https://www.instructables.com/MAX7219-7-Segment-Using-Arduino/" target="_blank" rel="noopener noreferrer">tutorial<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></p><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>//We always have to include the library
+
+#include &quot;LedControl.h&quot;
+
+/*
+Now we need a LedControl to work with.
+***** These pin numbers will probably not work with your hardware *****
+pin 12 is connected to the DataIn
+pin 11 is connected to the CLK
+pin 10 is connected to LOAD
+We have only a single MAX72XX.
+*/
+
+LedControl lc=LedControl(12,11,10,1);
+
+/* we always wait a bit between updates of the display */
+unsigned long delaytime=500;
+
+void setup() {
+
+  /* The MAX72XX is in power-saving mode on startup, we have to do a wakeup call */
+  lc.shutdown(0,false);
+  /* Set the brightness to a medium values */
+  lc.setIntensity(0,8);
+  /* and clear the display */
+  lc.clearDisplay(0);
+}
+
+int ore = 22;
+int minuti = 30;
+int secondi = 0;
+int centesimi = 0;
+
+void loop() {
+  lc.setDigit(0,7,ore/10,false);
+  lc.setDigit(0,6,ore%10,true);
+  lc.setDigit(0,5,minuti/10,false);
+  lc.setDigit(0,4,minuti%10,true);
+  lc.setDigit(0,3,secondi/10,false);
+  lc.setDigit(0,2,secondi%10,true);
+  lc.setDigit(0,1,centesimi/10,false);
+  lc.setDigit(0,0,centesimi%10,false);
+  delay(10);
+  centesimi++;
+  if (centesimi == 100){
+    centesimi = 0;
+    secondi++;
+  }
+  if (secondi == 60){
+    minuti++;
+    secondi = 0;
+  }
+  if (minuti == 60){
+    ore++;
+    minuti = 0;
+  }
+  if (ore == 24){
+    ore = 0;
+  }
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="eeprom" tabindex="-1"><a class="header-anchor" href="#eeprom" aria-hidden="true">#</a> EEPROM</h2><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>#include &lt;EEPROM.h&gt;
+
+int nByte = 0;
+int value = 50;
+void setup()
+{
+  Serial.begin(9600);
+  if(EEPROM.read(nByte) == 255){
+    Serial.println(String(String(nByte) + &quot;vuoto&quot;));
+    EEPROM.write(nByte, value);
+  }
+  else{
+    int tempvalue = EEPROM.read(nByte);
+    String toprint = String(String(nByte) + &quot;:&quot; + String(tempvalue));
+    Serial.println(toprint);
+  }
+  
+}
+void loop()
+{
+
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="sleep-mode" tabindex="-1"><a class="header-anchor" href="#sleep-mode" aria-hidden="true">#</a> SLEEP MODE</h2><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>/**
+ * Author:Ab Kurk
+ * version: 1.0
+ * date: 24/01/2018
+ * Description: 
+ * This sketch is part of the beginners guide to putting your Arduino to sleep
+ * tutorial. It is to demonstrate how to put your arduino into deep sleep and
+ * how to wake it up.
+ * Link To Tutorial http://www.thearduinomakerman.info/blog/2018/1/24/guide-to-arduino-sleep-mode
+ */
+
+#include &lt;avr/sleep.h&gt;//this AVR library contains the methods that controls the sleep modes
+#define interruptPin 2 //Pin we are going to use to wake up the Arduino
+
+
+void setup() {
+  Serial.begin(9600);//Start Serial Comunication
+  pinMode(LED_BUILTIN,OUTPUT);//We use the led on pin 13 to indecate when Arduino is A sleep
+  pinMode(interruptPin,INPUT);//Set pin d2 to input using the buildin pullup resistor
+  attachInterrupt(digitalPinToInterrupt(interruptPin), wakeUp, RISING);//attaching a interrupt to pin d2
+  digitalWrite(LED_BUILTIN,HIGH);//turning LED on
+}
+
+void loop() {
+ delay(5000);//wait 5 seconds before going to sleep
+ digitalWrite(LED_BUILTIN,LOW);//turning LED off
+ Going_To_Sleep();
+}
+
+void Going_To_Sleep(){
+    sleep_enable();//Enabling sleep mode
+    set_sleep_mode(SLEEP_MODE_PWR_DOWN);//Setting the sleep mode, in our case full sleep
+    sleep_cpu();//activating sleep mode
+  }
+
+void wakeUp(){
+  Serial.println(&quot;Interrrupt Fired&quot;);//Print message to serial monitor
+  sleep_disable();//Disable sleep mode
+  Serial.println(&quot;just woke up!&quot;);//next line of code executed after the interrupt 
+  digitalWrite(LED_BUILTIN,HIGH);//turning LED on
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="contatto-magnetico" tabindex="-1"><a class="header-anchor" href="#contatto-magnetico" aria-hidden="true">#</a> Contatto magnetico</h2><p><img src="/assets/contatto_magnetico.fe082fca.jpg" alt="language"></p><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>void setup() {
+  pinMode(2, INPUT_PULLUP);
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  bool v = digitalRead(2);
+  digitalWrite(LED_BUILTIN, !v);
+  delay(100);
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="rtc-e-display-i2c" tabindex="-1"><a class="header-anchor" href="#rtc-e-display-i2c" aria-hidden="true">#</a> RTC e Display I2C</h2><p>In questo esempio vedremo come realizzare un orologio utilizzando il modulo <strong>RTC</strong>, un display <strong>LCD</strong> con interfaccia <strong>I2C</strong> e un <strong>tasto touch</strong>. L&#39;orologio sarà alimentato da una <strong>pila a 9V</strong> quindi, per evitare che si scarichi nel giro di poche ore, faremo in modo che arduino vada in <strong>sleep mode</strong> disabilitando tutte le periferiche ad esso connesso. Il tasto touch servià a risvegliare la arduino, il display e il modulo RTC per 10 secondi.</p><p><img src="/assets/rtc_lcd_bb.11c5e88f.png" alt=""></p><table><thead><tr><th>RTC</th><th>Arduino Pins</th></tr></thead><tbody><tr><td>VCC</td><td>VCC (+5V)</td></tr><tr><td>GND</td><td>GND</td></tr><tr><td>SDA</td><td>A4 (SDA)</td></tr><tr><td>SCL</td><td>A5 (SCL)</td></tr></tbody></table><table><thead><tr><th>LCD</th><th>Arduino Pins</th></tr></thead><tbody><tr><td>VCC</td><td>VCC (+5V)</td></tr><tr><td>GND</td><td>GND</td></tr><tr><td>SDA</td><td>A4 (SDA)</td></tr><tr><td>SCL</td><td>A5 (SCL)</td></tr></tbody></table><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>#include &lt;Wire.h&gt; 
+#include &lt;avr/sleep.h&gt;
+#include &lt;LiquidCrystal_I2C.h&gt;
+#include &quot;RTClib.h&quot;
+
+#define WAKEUP_PIN 2 
+#define RTC_LDC_PIN_POWER_SUPPLY 7
+#define timeBeforeWakeUp 10000
+#define refreshTime 1000
+
+#define ON true
+#define OFF false
+
+enum Mesi {Jan = 1, Feb, Mar, Apr, May, Jun, Jul, Aug, Sept, Oct, Nov, Dec};
+enum Giorni {Sunday = 0, Monday, Tuesday, Wednesay, Thursday, Friday, Saturday};
+
+//You shall flash the sketch two time.
+//The first for adjust the time 
+//The second for run arduino stand alone
+#define ADJUST_HOUR false
+DateTime dateNow = DateTime(2021, May, 19, 19, 9, 10);
+
+LiquidCrystal_I2C lcd(0x27,20,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
+RTC_DS1307 rtc;
+
+//add 0 if number is  &lt; 9 and return a string
+String fillZeros(int n) {return (n &lt; 10 ? String(&#39;0&#39; + String(n)) : String(n)); }
+
+//receive h, m, s and return hh:mm:ss
+String standardTime(int h, int m, int s){ return (String(fillZeros(h) + &#39;:&#39; + fillZeros(m) + &#39;:&#39; + fillZeros(s))); } 
+
+void setup()
+{
+  pinMode(RTC_LDC_PIN_POWER_SUPPLY, OUTPUT);
+  pinMode(WAKEUP_PIN,INPUT_PULLUP);
+
+  attachInterrupt(digitalPinToInterrupt(WAKEUP_PIN), mcuWakeUp, FALLING); //attaching a interrupt to pin
+
+  rtc_lcd_PowSupply(ON);
+  
+  if(ADJUST_HOUR){
+     //to set time at the compilation time
+     //rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+     rtc.adjust(dateNow);
+   }
+}
+
+void loop()
+{
+    DateTime now = rtc.now();
+
+    int year = now.year();
+    int month = now.month();
+    int day = now.day();
+    int dayOfTheWeek = now.dayOfTheWeek();
+
+    int seconds = now.second(); 
+    int minutes = now.minute();
+    int hours = now.hour();
+
+    String LCD_firstRow = &quot;&quot;;
+    switch(dayOfTheWeek){
+      case Sunday: LCD_firstRow =  LCD_firstRow + &quot;Dom&quot; + &quot; &quot;; break;
+      case Monday: LCD_firstRow =  LCD_firstRow + &quot;Lun&quot; + &quot; &quot;; break;
+      case Tuesday: LCD_firstRow =  LCD_firstRow + &quot;Mar&quot; + &quot; &quot;; break;
+      case Wednesay: LCD_firstRow =  LCD_firstRow + &quot;Mer&quot; + &quot; &quot;; break;
+      case Thursday: LCD_firstRow =  LCD_firstRow + &quot;Gio&quot; + &quot; &quot;; break;
+      case Friday: LCD_firstRow =  LCD_firstRow + &quot;Ven&quot; + &quot; &quot;; break;
+      case Saturday: LCD_firstRow =  LCD_firstRow + &quot;Sab&quot; + &quot; &quot;; break;
+      break;
+      default:;
+    }
+    LCD_firstRow = LCD_firstRow + String(day) + &quot; &quot;;
+    switch(month){
+      case Jan: LCD_firstRow =  LCD_firstRow + &quot;gen&quot; + &quot; &quot;; break;
+      case Feb: LCD_firstRow =  LCD_firstRow + &quot;gen&quot; + &quot; &quot;; break;
+      case Mar: LCD_firstRow =  LCD_firstRow + &quot;mar&quot; + &quot; &quot;; break;
+      case Apr: LCD_firstRow =  LCD_firstRow + &quot;apr&quot; + &quot; &quot;; break;
+      case May: LCD_firstRow =  LCD_firstRow + &quot;mag&quot; + &quot; &quot;; break;
+      case Jun: LCD_firstRow =  LCD_firstRow + &quot;giu&quot; + &quot; &quot;; break;
+      case Jul: LCD_firstRow =  LCD_firstRow + &quot;lug&quot; + &quot; &quot;; break;
+      case Aug: LCD_firstRow =  LCD_firstRow + &quot;ago&quot; + &quot; &quot;; break;
+      case Sept: LCD_firstRow =  LCD_firstRow + &quot;set&quot; + &quot; &quot;; break;
+      case Oct: LCD_firstRow =  LCD_firstRow + &quot;ott&quot; + &quot; &quot;; break;
+      case Nov: LCD_firstRow =  LCD_firstRow + &quot;nov&quot; + &quot; &quot;; break;
+      case Dec: LCD_firstRow =  LCD_firstRow + &quot;dic&quot; + &quot; &quot;; break;
+      break;
+      default:;
+    }
+    LCD_firstRow = LCD_firstRow + String(year);
+    
+    lcd.setCursor(0,0);
+    lcd.print(LCD_firstRow);
+    lcd.setCursor(0,1);
+    lcd.print(standardTime(hours, minutes, seconds));
+ 
+
+    delay(refreshTime);
+    static int counter = 0; 
+    if(counter &lt; timeBeforeWakeUp){
+      counter +=  refreshTime; 
+    } 
+    //go to sleep
+    else {
+      counter = 0;
+      rtc_lcd_PowSupply(OFF);
+      mcuGoToSleep();
+      //after wake up
+      rtc_lcd_PowSupply(ON);
+    }
+}
+
+void rtc_lcd_PowSupply(bool isOn){
+  if(isOn){
+    digitalWrite(RTC_LDC_PIN_POWER_SUPPLY, HIGH);
+    lcd.init();  
+    lcd.backlight();                   
+    lcd.setCursor(0,0);
+    delay(100);
+    rtc.begin();
+  }
+  else{
+    digitalWrite(RTC_LDC_PIN_POWER_SUPPLY, LOW);
+  }
+}
+
+void mcuGoToSleep(){
+  sleep_enable();
+  set_sleep_mode(SLEEP_MODE_PWR_DOWN);
+  sleep_cpu();
+}
+
+void mcuWakeUp(){
+  sleep_disable();//Disable sleep mode
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="wifi" tabindex="-1"><a class="header-anchor" href="#wifi" aria-hidden="true">#</a> wifi</h2><p>Utilizzerò un <a href="https://store.arduino.cc/products/arduino-mkr-wifi-1010?queryID=undefined" target="_blank" rel="noopener noreferrer">Arduino mkr wifi 1010<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a>.</p><p><img src="/assets/Pinout-MKRwifi1010_latest.2cd6ada5.png" alt="overview"></p><ol><li>Installa la scheda <code>Arduino SAMD Boards (32-bits ARM Cortex-M0+)</code> da <code>Strumenti/scheda/gestore scheda</code>:</li><li>Installa la libreria <a href="https://www.arduino.cc/en/Reference/WiFiNINA" target="_blank" rel="noopener noreferrer">WiFiNINA<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> da <code>Strumenti/Gestione librerie</code></li></ol><p>Apri, compila e carica lo scketch <code>ScanNetworks</code> tra gli esempi della libreria <code>WiFiNINA</code> in <code>File/Esempi/WiFiNINA/ScanNetworks</code>. Aprendo il monitor seriale dovresti vedere le reti WiFi che la scheda riesce a trovare.</p><h1 id="mqtt" tabindex="-1"><a class="header-anchor" href="#mqtt" aria-hidden="true">#</a> mqtt</h1><p>Utilizzerò un <a href="https://store.arduino.cc/products/arduino-mkr-wifi-1010?queryID=undefined" target="_blank" rel="noopener noreferrer">Arduino mkr wifi 1010<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a>.</p><ol><li><p>Installa la scheda <code>Arduino SAMD Boards (32-bits ARM Cortex-M0+)</code> da <code>Strumenti/scheda/gestore scheda</code>:</p></li><li><p>Installa la libreria <a href="https://www.arduino.cc/en/Reference/WiFiNINA" target="_blank" rel="noopener noreferrer">WiFiNINA<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> e <a href="https://pubsubclient.knolleary.net/" target="_blank" rel="noopener noreferrer">PubSubClient (Nick O’Leary)<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a> da <code>Strumenti/Gestione librerie</code></p></li><li><p>Crea un file dove poter salvare le credenziali di accesso alla rete wifi:</p></li></ol><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>//secrets.h 
+const char WIFI_SSID[] = &quot;Vodafone-A37481864&quot;;
+const char WIFI_PASS[] = &quot;lycl8uzu5x3m9utx&quot;;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="4"><li>Sketch</li></ol><div class="language-c++ ext-c++ line-numbers-mode"><pre class="language-c++"><code>#include &quot;secrets.h&quot;
+#include &lt;WiFiNINA.h&gt;
+#include &lt;PubSubClient.h&gt;
+
+WiFiClient wifi;
+int status = WL_IDLE_STATUS;
+
+IPAddress server(192,168,68,108); //indirizzo IP server mqtt
+PubSubClient client(wifi);
+
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+  while(!Serial){
+    ;
+  }
+  Serial.begin(9600);
+  Serial.println(&quot;OK&quot;);
+  Serial.print(&quot;Connessione...&quot;);
+  while(status != WL_CONNECTED){
+    status =  WiFi.begin(WIFI_SSID, WIFI_PASS);
+    Serial.print(&quot;.&quot;);
+    delay(1000);
+  }
+  Serial.println(&quot;Connected to WiFi\n&quot;);
+  client.setServer(server, 1883);
+  client.setCallback(callback);
+
+  if(client.connect(&quot;arduinosub&quot;)){
+    Serial.println(&quot;mqtt connected&quot;);
+    client.subscribe(&quot;/hello&quot;);
+  } else{
+    Serial.println(&quot;mqtt not connected&quot;);
+    Serial.print(&quot;failed rc=&quot;);
+    Serial.println(client.state());
+  }
+}
+
+void loop()
+{
+  client.loop();
+}
+
+void callback(char* topic, byte* payload, unsigned int length){
+  String msg;
+  for(int i=0; i&lt;length; i++){
+    msg += (char)payload[i];
+  }
+  if(strcmp(topic, &quot;/hello&quot;) == 0){
+    if(msg == &quot;ON&quot;){
+      digitalWrite(LED_BUILTIN, HIGH);
+      Serial.println(&quot;ON&quot;);
+    }
+    else{
+      digitalWrite(LED_BUILTIN, LOW);
+      Serial.println(&quot;OFF&quot;);
+    }
+  }
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><div class="meta-item edit-link"><a class="external-link meta-item-label" href="https://github.com/sdiricco/simone-di-ricco/edit/main/docs/coding/arduino/README.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page on GitHub"><!--[--><!--]--> Edit this page on GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Author: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: sdiricco.91@gmail.com">simone</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.30ed76b5.js" defer></script>
+  </body>
+</html>

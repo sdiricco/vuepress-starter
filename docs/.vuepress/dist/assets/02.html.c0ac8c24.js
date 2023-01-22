@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6ad36278","path":"/coding/arduino/02.html","title":"Come alimentare Arduino","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/arduino/02.md"}');export{e as data};

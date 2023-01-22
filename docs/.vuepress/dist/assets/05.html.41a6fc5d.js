@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-60964ebe","path":"/coding/arduino/05.html","title":"Primo sketch","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/arduino/05.md"}');export{e as data};
